@@ -43,8 +43,17 @@ import base64
 # Puedes modificar el código a partir de aquí:
 
 def solution(lista):
-    # TODO: Construir el acrónimo tomando la primera letra de cada palabra
-    pass
+    
+    #Variable para colocar la respuesta
+    resultado = ""
+
+    #Loop para seleccionar la primera letra
+    for palabra in lista:        
+        resultado += palabra[0]
+
+    #.upper para volverlas todas mayúsculas
+    return resultado.upper()
+
 
 # ── No modifiques debajo de esta línea ──────────────────
 

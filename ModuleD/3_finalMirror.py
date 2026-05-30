@@ -41,7 +41,16 @@ import base64
 # Puedes modificar el código a partir de aquí:
 
 def solution(s):
-    # TODO: Retornar el string + su reverso, usando un loop para invertir
+    
+    #Variable para guardar los resultados
+    reverso = ""
+
+    #Loop para obtener el reverso de cada palabra
+    for letra in s:
+        reverso = letra + reverso
+
+    #Se unen las palabras con sus reversos
+    return s + reverso
     pass
 
 # ── No modifiques debajo de esta línea ──────────────────
