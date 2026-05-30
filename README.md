@@ -2,11 +2,11 @@
 
 Este repositorio contiene las soluciones desarrolladas para el proyecto del curso **Introducción a la Computación (CI-0110)** por el grupo conformado por:
 
-- Anthonny Mora Aguilar
+- Felipe Bolaños Reyes
 - Alberto Raúl Fallas Rovira
 - Ismael Enrique Jarquín Soza
-- Felipe Bolaños Reyes
 - Michael Lu Lu
+- Anthonny Mora Aguilar
 
 ## Distribución de Módulos
 
@@ -54,13 +54,19 @@ Este repositorio contiene las soluciones desarrolladas para el proyecto del curs
 │   ├── judge.py
 │   └── unlockModuleD.py
 │
-└── ModuleE/
-    ├── 0_serialExpansion.py
-    ├── 1_coreConsonant.py
-    ├── 2_oddPairs.py
-    ├── 3_swapPairs.py
-    ├── judge.py
-    └── unlockModuleE.py
+├── ModuleE/
+│   ├── 0_serialExpansion.py
+│   ├── 1_coreConsonant.py
+│   ├── 2_oddPairs.py
+│   ├── 3_swapPairs.py
+│   ├── judge.py
+│   └── unlockModuleE.py
+│
+└── Fragmentos y mensaje final/
+    ├── Fragmentos y códigos.txt
+    └── mensajeFinal.txt
+
 ```
 
-Las soluciones de cada ejercicio planteado se encuentran dentro de una función llamada `solution()`. 
+Las soluciones de cada ejercicio se encuentran dentro de una función llamada `solution()` en los archivos correspondientes dentro de cada Módulo. 
+Los fragmentos, códigos y el mensaje final se encuentran dentro de la carpeta de "Fragmentos y mensaje final".
