@@ -45,14 +45,14 @@ import base64
 #SIN RESOLVER, HACER CONSULTAS SOBRE EL PROCESO
 def solution(s):
     
-    #Separo cada palabra
-    s = tests
-    b = s.split()
-    maximo = max (len(b))
+    #.split para separar las palabras en strings
+    palabras = s.split()
     result = ""
     
-    for i in range (0, b, -1):
-        result += i[b]
+    #Loop para colocar las palabras en su orden inverso
+    for i in range (len(palabras) - 1, -1):
+        result += palabras[i]
+        
     return result
     
     
