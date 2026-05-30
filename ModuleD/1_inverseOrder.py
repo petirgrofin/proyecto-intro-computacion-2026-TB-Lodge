@@ -50,10 +50,11 @@ def solution(s):
     result = ""
     
     #Loop para colocar las palabras en su orden inverso
-    for i in range (len(palabras) - 1, -1):
-        result += palabras[i]
+    for i in range (len(palabras) - 1, -1, -1):
+        result += palabras[i] + " "
         
-    return result
+        
+    return result.rstrip()
     
     
     
