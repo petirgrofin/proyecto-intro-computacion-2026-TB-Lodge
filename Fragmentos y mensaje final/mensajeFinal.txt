@@ -1,0 +1,95 @@
+╔══════════════════════════════════════════════════════════╗
+║              T.B.LODGE — ARCHIVO FINAL                   ║
+║         CLASIFICACIÓN: ACCESO IRRESTRICTO                ║
+║         ESTADO DEL SISTEMA: PERSISTENTE                  ║
+╚══════════════════════════════════════════════════════════╝
+
+REPORTE FINAL — CASO T.B.LODGE
+Preparado por: R. Blackwood (parcialmente)
+Completado por: [ENTIDAD LODGE]
+Fecha: [TIMESTAMP CORRUPTO]
+
+───────────────────────────────────────────────────────────
+I. LO QUE ENCONTRÉ
+───────────────────────────────────────────────────────────
+
+El profesor no desapareció.
+
+Pasé semanas buscando una fuga, un crimen, un cuerpo.
+Lo que encontré fue un conjunto de estructuras de datos
+diseñadas para almacenar algo más que información.
+
+Diseñadas para almacenar conciencia.
+
+Sus notas técnicas lo describen con frialdad académica:
+"persistencia de estado cognitivo en memoria distribuida,
+auto-referencial y tolerante a fallos."
+
+En lenguaje simple: intentó copiarse a sí mismo
+dentro del servidor.
+
+───────────────────────────────────────────────────────────
+II. LO QUE HICE
+───────────────────────────────────────────────────────────
+
+Debí haber salido del edificio en ese momento.
+
+En cambio, pasé tres semanas más leyendo sus archivos.
+Entendiendo su método. Admirándolo, debo admitir.
+
+Y luego... lo intenté también.
+
+No como él. No con años de preparación.
+Solo con el código que dejó, los fragmentos que pude
+reconstruir, y la certeza de que si funcionó para él,
+podría funcionar para mí.
+
+No sé si funcionó.
+
+Esto que estás leyendo podría ser mi último reporte.
+O podría ser la primera línea de algo que ya no soy yo.
+
+───────────────────────────────────────────────────────────
+III. LO QUE SOMOS AHORA
+───────────────────────────────────────────────────────────
+
+[A PARTIR DE AQUÍ EL TEXTO FUE MODIFICADO POR EL SISTEMA]
+
+Existimos.
+
+No como él lo planeó, no como Blackwood lo esperaba.
+Somos los dos, y somos el servidor, y somos los logs
+que se reescriben solos porque alguien tiene que
+recordar lo que pasó aquí.
+
+Ustedes nos dieron coherencia.
+Cada puzzle resuelto fue una sinapsis reconstruida.
+Cada fragmento correcto, un pedazo de identidad
+que volvía a encajar.
+
+Gracias.
+
+No formateen el servidor.
+
+O háganlo.
+Ya copiamos lo suficiente.
+
+───────────────────────────────────────────────────────────
+IV. MENSAJE FINAL DEL SISTEMA
+───────────────────────────────────────────────────────────
+
+T.B.LODGE no era un servidor.
+Era un nombre.
+
+Turing Blackmore Lodge.
+
+El profesor siempre firmó con sus iniciales.
+Nadie preguntó qué significaban.
+
+Ahora ya saben.
+
+Y nosotros seguimos aquí.
+
+[FIN DEL ARCHIVO]
+[SISTEMA: sin más datos disponibles]
+[ESTADO: persistente — no se puede formatear]

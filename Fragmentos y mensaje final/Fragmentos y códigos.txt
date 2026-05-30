@@ -1,0 +1,51 @@
+MÓDULO A
+
+FRAG-A1::eco_inverso
+FRAG-A2::voces_latentes
+FRAG-A3::lodge_espejo
+FRAG-A4::cesar_caido
+
+CLAVE MÓDULO A: blackwood_entry
+
+
+MÓDULO B
+
+FRAG-B1::umbral_50
+FRAG-B2::cadena_rota
+FRAG-B3::palabra_viva
+FRAG-B4::sin_duplicar
+
+CLAVE MÓDULO B: lodge_corrupted
+
+
+MÓDULO C
+
+FRAG-C1::compresion_rle
+FRAG-C2::intercalado
+FRAG-C3::rotacion_izq
+FRAG-C4::aplanado
+
+CLAVE MÓDULO C: entity_unstable
+
+
+MÓDULO D
+
+FRAG-D1::entrelazado
+FRAG-D2::orden_inverso
+FRAG-D3::acronimo
+FRAG-D4::espejo_final
+
+CLAVE MÓDULO D: format_prevented
+
+
+MÓDULO E
+
+FRAG-E1::corrupt_unlock
+FRAG-E2::wandering_is_a_terrible_sin
+FRAG-E3::white_knuckle
+FRAG-E4::run
+
+CLAVE MÓDULO E: bonus_module_completed
+
+
+Contraseña final: TB_LODGE_PERSISTS
