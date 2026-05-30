@@ -40,12 +40,13 @@ import base64
 
 def solution(s):
     # TODO: Encontrar y retornar la palabra más larga del string
-    resultado = ""
+    resultado = ""  # Guarda la palabra más larga encontrada
     texto = s.split()
-    for palabra in texto:
+    for palabra in texto: # Recorre cada palabra de la lista una por una
         if len(palabra) > len(resultado):
-            resultado = palabra
-    return resultado
+            resultado = palabra # Reemplaza la palabra guardada por la nueva más larga
+
+    return resultado  # Devuelve la palabra más larga
 
 # ── No modifiques debajo de esta línea ──────────────────
 

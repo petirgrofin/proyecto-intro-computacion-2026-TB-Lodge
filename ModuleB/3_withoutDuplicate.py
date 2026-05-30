@@ -41,11 +41,14 @@ import base64
 
 def solution(lista):
     # TODO: Retornar la lista sin duplicados, preservando orden
-    nuevaLista = []
-    for elemento in lista:
+    nuevaLista = []  #ista vacía para guardar los elementos únicos
+
+    for elemento in lista: # Recorre cada elemento de la lista original
         if (elemento not in nuevaLista):
+            # Si es un elemento nuevo, lo añade a la lista auxiliar
             nuevaLista.append(elemento)
-    return nuevaLista
+
+    return nuevaLista  # Devuelve la nueva lista sin duplicado
 
 # ── No modifiques debajo de esta línea ──────────────────
 

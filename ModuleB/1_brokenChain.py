@@ -41,15 +41,17 @@ import base64
 
 def solution(lista):
     # TODO: Unir los elementos de la lista con "::" usando un loop
-    resultado = ""
-    contador = 0
-    for elemento in lista:
+    resultado = ""  # Cadena vacía para ir armando el mensaje final
+    contador = 0  # Contador para saber en qué posición de la lista estamos
+
+    for elemento in lista: # Recorre cada palabra dentro de la lista
         contador += 1
         resultado += elemento
-        if contador < len(lista):
+        if contador < len(lista):  # Si no es el último elemento, añade el separador "::"
             resultado += "::"
         
     return resultado
+
     pass
 
 # ── No modifiques debajo de esta línea ──────────────────

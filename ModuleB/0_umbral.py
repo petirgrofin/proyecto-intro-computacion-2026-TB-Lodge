@@ -39,11 +39,11 @@ import base64
 
 def solution(lista):
     # TODO: Filtrar la lista y retornar solo los elementos > 50
-    resultado = []
+    resultado = [] # Lista vacía para guardar los números que cumplan la condición
     for item in lista:
-        if (item > 50):
+        if (item > 50):  # Verifica si el número es estrictamente mayor que 50
             resultado.append(item)
-    return resultado
+    return resultado  # Devuelve la nueva lista con los números ya filtrados
 
 
 solution([30, 55, 12, 78, 50, 91])
