@@ -36,6 +36,9 @@ import base64
 # ─────────────────────────────────────────────────────────
 # Puedes modificar el código a partir de aquí:
 
+# Se crea un arreglo con las vocales en minúscula. Posteriormente, se itera sobre cada carácter 
+# en la cadena dada usando char.lower() para pasarlas a minúscula y el keyword reservado "in" para
+# determinar cuántos caracteres son vocales. Cada uno se suma a la variable total.
 def solution(s):
     vocals = ["a", "e", "i", "o", "u"]
     total = 0

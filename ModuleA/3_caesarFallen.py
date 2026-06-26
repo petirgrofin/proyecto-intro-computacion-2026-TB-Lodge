@@ -44,14 +44,21 @@ import base64
 # ─────────────────────────────────────────────────────────
 # Puedes modificar el código a partir de aquí:
 
+# Se itera sobre la cadena. Por cada carácter, se revisa que sea una letra minúscula. Si no lo es, se suma el carácter
+# a decoded_string. Si lo es, entonces obtenemos el código ASCII del carácter con ord y le restamos tres.
+# Si el código desplazado no representa una letra minúscula, entonces se suma 26 (cantidad de letras en el alfabeto)
+# para obtener el comportamiento circular. Luego, se decodifica el carácter desplazado hacia atrás con chr
+# y se suma a decoded_string. Finalmente, decoded_string representará la cadena descifrada.
 def solution(s):
     decoded_string = ""
     for char in s:
-        if ('a' <= char <= 'z'): # solo se descifran letras minúscula
+        # solo se descifran letras minúscula. 
+        # Alternativamente se puede usar if char != " " por las restricciones dadas
+        if ('a' <= char <= 'z'): 
             char_code = ord(char)
             decoded_char_ord = char_code - 3 # se desplazan tres hacia atrás
             if decoded_char_ord < ord('a'):
-                decoded_char_ord += 26 # se suman las 26 letras del alfabeto para hacerlo circular
+                decoded_char_ord += 26 # se suman las 26 letras del alfabeto en ASCII para hacerlo circular
             decoded_string += chr(decoded_char_ord)
         else:
             decoded_string += char

@@ -35,6 +35,9 @@ import base64
 # ─────────────────────────────────────────────────────────
 # Puedes modificar el código a partir de aquí:
 
+# Leer la cadena en orden inverso, añadiendo cada carácter a una cadena result.
+# Para leer en orden inverso se usa range con step -1, empezando en len(s) - 1 y terminando en -1 
+# (excluido, por lo que el último índice que procesa es el 0).
 def solution(s):
     result = ""
     for i in range(len(s) - 1, -1, -1):

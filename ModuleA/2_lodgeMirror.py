@@ -39,13 +39,18 @@ import base64
 # ─────────────────────────────────────────────────────────
 # Puedes modificar el código a partir de aquí:
 
+# Se itera sobre la cadena dada en orden inverso, añadiendo cada carácter a reversed_string, que al final
+# del bucle contendrá la cadena en orden inverso. Finalmente, se revisa que la cadena original sea igual
+# a la cadena formada.
 def solution(s):
     reversed_string = ""
     for i in range(len(s) - 1, -1, -1):
         reversed_string += s[i]
     return s == reversed_string
 
-# Alternativamente, con la técnica de two pointers:
+# Alternativamente, con la técnica de two pointers, que consiste en inicializar un puntero al inicio (i) y 
+# otro al final (j), comparando que los caracteres correspondientes sean iguales, incrementando el del inicio
+# y decrementando el del final. Una vez se crucen (i < j) o no sea palíndromo, se termina.
 def alt_solution(s):
     i = 0
     j = len(s) - 1
